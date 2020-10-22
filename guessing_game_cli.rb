@@ -4,9 +4,8 @@ def run_guessing_game
   int_input = input.to_i
     if string == "exit"
       puts "Goodbye!"
-      return "You guessed the correct number!"
-    elsif string == "exit"
-      
+    elsif int_input == answer
+      puts "You guessed the correct number!"
     else
       puts "Sorry! The computer guessed #{answer}." 
     end 
