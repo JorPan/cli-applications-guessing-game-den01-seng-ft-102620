@@ -1,6 +1,6 @@
 def run_guessing_game 
   answer = rand(6) + 1 
-  puts "Guess a number, 1-6"
+  #puts "Guess a number, 1-6"
   user_input = gets.chomp
     if user_input == answer
       return "You guessed the correct number!"
